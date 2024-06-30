@@ -1,6 +1,8 @@
 <div class="row">
-    <div class="col-md-11">
+    <div class="col-md-11 ">
+        <div class="all-profile">
         <router-outlet />
+        </div>
     </div>
     <div class="col-md-1 text-center icons-container">
         <div class="container">
@@ -22,7 +24,7 @@
                 </div>
                 <!-- portfolio logo -->
                 <div class="col-md-12 col-sm-3 col-3">
-                    <button class="logo-frame" [routerLink]="['']" routerLinkActive="change-bg"
+                    <button class="logo-frame" [routerLink]="['/portfolio']" routerLinkActive="change-bg"
                         [routerLinkActiveOptions]="{exact: true}">
                         <i class="bi bi-briefcase-fill"></i>
                     </button>

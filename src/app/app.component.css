@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
 }
+.all-profile{
+  margin-left: 80px;
+  margin-right: 80px;
+}
 .icons-container {
   margin-top: 100px;
 }
