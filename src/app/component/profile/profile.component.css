@@ -1,0 +1,70 @@
+.all-profile{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.pink-bg {
+  background-color: #f56692;
+}
+.gray-bg {
+  background-color: gray;
+}
+.skills-content {
+  font: 14px;
+  font-weight: 500;
+  color: #454e56;
+  margin-bottom: 5px;
+  padding-left: 5px;
+}
+.text-title {
+  color: #454e56;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+hr {
+  margin: 0 250px !important;
+  color: #454e56;
+}
+.timeline-logo {
+  margin-top: 30px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 25px;
+  background-color: #f56692;
+  color: #454e56;
+  position: absolute;
+  left:-25px;
+  top: -30px;
+
+}
+.date {
+  border-radius: 15px;
+  background-color: #f8f8f8;
+  width: 180px;
+  color: #454e56;
+}
+.timeline-container {
+  border-left: rgb(206, 203, 203);
+  border-left-style: solid;
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 40px;
+  padding-bottom: 5px;
+}
+.job-title {
+  color: #454e56;
+  font-size: 25px;
+  font-weight: 600;
+}
+.job-company {
+  color: gray;
+  font-size: 25px;
+  font-weight: 600;
+}
+.job-description{
+    color: gray;
+    font-size: 20px;
+    font-weight: 400;
+}

@@ -1,24 +1,22 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
-.icons-container{
-    margin-top: 100px;
-
+  margin: 0;
+  padding: 0;
 }
-.logo-frame{
-    margin-top: 30px;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-font-size: 30px;
-    background-color: #454e56 ;
-    color: gray;
+.icons-container {
+  margin-top: 100px;
 }
-.change-bg{
-    background-color: #f56692;
-
+.logo-frame {
+  margin-top: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 30px;
+  background-color: #454e56;
+  color: gray;
 }
-.logo-frame-link{
-    background-color: #f56692;
+.change-bg {
+  background-color: #f56692;
+}
+.logo-frame-link {
+  background-color: #f56692;
 }
