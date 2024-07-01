@@ -1,7 +1,7 @@
 <!-- contact me partion start -->
 <!-- contact me header -->
 <div class="text-center text-title">
-    MY SKILLS
+    CONTACT ME
 </div>
 <!-- contact me info -->
 <div class="row table-font">
@@ -49,24 +49,29 @@
     </div>
     <div class="col-12">
         <div class="d-flex flex-row justify-content-center">
+            <!-- likedin -->
             <div class="pe-4">
-                <button class="contact-logo text-center">
-                    <i class="fas fa-spinner fa-spin"></i>
+                <button class="contact-logo text-center" (click)="navigateToLinkedin()">
+                    <i class="fa-brands fa-linkedin-in"></i>
                 </button>
             </div>
+            <!-- github -->
             <div class="pe-4">
-                <button class="contact-logo text-center">
-                    <i class="bi bi-briefcase-fill"></i>
+                <button class="contact-logo text-center" (click)="navigateToGitHub()">
+                    <i class="fa-brands fa-github"></i>
                 </button>
             </div>
+            <!-- facebook -->
             <div class="pe-4">
-                <button class="contact-logo text-center">
-                    <i class="bi bi-briefcase-fill"></i>
+                <button class="contact-logo text-center" (click)="navigateToFacebook()">
+                    <i class="fa-brands fa-facebook-f"></i>
                 </button>
             </div>
+
+            <!-- instagram -->
             <div class="pe-4">
-                <button class="contact-logo text-center">
-                    <i class="bi bi-briefcase-fill"></i>
+                <button class="contact-logo text-center" (click)="navigateToInstagram()">
+                    <i class="fa-brands fa-instagram"></i>
                 </button>
             </div>
         </div>
