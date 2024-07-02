@@ -1,2 +1,44 @@
 /* You can add global styles to this file, and also import other style files */
 @import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import "../node_modules/@fortawesome/fontawesome-free/css/all.css";
+
+:root {
+  --pink: #f56692;
+  --dark-gray: #454e56;
+  --medium-gray: rgb(202, 202, 202);
+}
+
+.pink {
+  color: var(--pink);
+}
+.gray {
+  color: var(--dark-gray);
+}
+
+/* over header start */
+.over-header {
+  color: rgb(242, 238, 238);
+  position: absolute;
+  font-size: 70px;
+  font-weight: 800;
+  z-index: -1;
+  text-align: center;
+}
+.header-contanier {
+  position: relative;
+  padding-top: 50px !important;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+/* over header end */
+/* title start */
+.text-title {
+  color: var(--dark-gray);
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+/* title end */
